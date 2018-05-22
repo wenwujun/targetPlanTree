@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/me/meIndex",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#9AFF9A",
+    "navigationBarTitleText": "目标计划树",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "目标树",
+        "iconPath": "pages/resource/tree_selected.png",
+        "selectedIconPath": "pages/resource/tree_selected.png"
+      },{
+        "pagePath": "pages/logs/logs",
+        "text": "小伙伴",
+        "iconPath": "pages/resource/watch_no_selected.png",
+        "selectedIconPath": "pages/resource/watch_no_selected.png"
+      },
+      {
+        "pagePath": "pages/me/meIndex",
+        "text": "我",
+        "iconPath": "pages/resource/me_no_selected.png",
+        "selectedIconPath": "pages/resource/me_no_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}
