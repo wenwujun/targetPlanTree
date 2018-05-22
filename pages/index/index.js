@@ -21,6 +21,11 @@ Page({
     searchinput: '', //用户输入的查询语句
   },
   onLoad: function () {
-
+  },
+  onShareAppMessage:function(){
+    return {
+      "title":"目标计划树",
+      "path":"pages/index/index"
+    }
   }
 })
